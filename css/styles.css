@@ -140,7 +140,7 @@ a.mobile-tel {
     color: #4D5AE5;
 }
 .mobile-menu-soc {
-    font-family: var(--font-family);
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -328,6 +328,15 @@ a.header-contacts {
        url("../images/mobile-bg.png");
     margin: 0 auto; 
 }
+
+@media (min-resolution: 2x) {
+ .main-section {
+   background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7), 
+      rgba(46, 47, 66, 0.7)),
+       url("../images/mobile-bg-2.png"); }
+
+
 .main-container {
   margin:0 auto;
 }
