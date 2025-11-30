@@ -18,8 +18,8 @@
         <a href="./index.html" class="header-logo">Web<span class="header-logo-studio">Studio</span></a>
         <ul class="nav-ul">            
             <li class="active"><a href="./index.html" class="header-menu">Studio</a></li>
-            <li><a href=""  class="header-menu">Portfolio</a></li>
-            <li><a href="" class="header-menu">Contacts</a></li>
+            <li><a href="#"  class="header-menu">Portfolio</a></li>
+            <li><a href="#" class="header-menu">Contacts</a></li>
         </ul>
     </nav>
     <address class="header-address">
@@ -28,6 +28,69 @@
             <li><a href="tel:+110001111111" class="header-contacts">+11 (000) 111-11-11</a></li>
         </ul>
     </address>
+
+    <button class="burger-btn" type="button" data-menu-open>
+        <svg class="burger-icon" width="24" hight="24">
+          <use href="./images/icons.svg#burger-icon"></use>
+        </svg>
+
+    </button>
+    <div class="mobile-menu" data-menu>
+        <div class="mobile-menu-container">
+            <button class="mobile-menu-close" type="button" data-menu-close>
+            <svg class="mci" width="24" hight="24">
+                <use href="./images/icons.svg#mobile-close-icon"></use>
+            </svg>
+            </button>
+            <nav class="mobile-nav">
+                <ul class="mobile-menu-ul">
+                    <li><a href="./index.html" class="mobile-menu-li active">Studio</a></li>
+                    <li><a href="#"  class="mobile-menu-li">Portfolio</a></li>
+                    <li><a href="#"  class="mobile-menu-li">Contacts</a></li>
+                </ul>
+            </nav>
+            <address>
+                <ul class="mobile-address-ul">
+                    <li><a href="tel:+110001111111" class="mobile-tel">+11 (000) 111-11-11</a></li>
+                    <li><a href="mailto:info@devstudio.com" class="mobile-mail">info@devstudio.com</a></li>
+
+                </ul>
+            </address>
+            <div class="mobile-menu-soc">
+                <ul class="mobile-icon-ul">
+                    <li class="mobile-icon-li">
+                            <a href="#" class="mobile-icon-href">
+                                <svg class="mobile-icon" height="24" width="24">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                    </li>
+                    <li class="mobile-icon-li">
+                            <a href="#" class="mobile-icon-href">
+                                <svg class="mobile-icon" height="24" width="24">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                    </li>
+                    <li class="mobile-icon-li">
+                            <a href="#" class="mobile-icon-href">                            
+                                <svg class="mobile-icon" height="24" width="24">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                    </li>
+                    <li class="mobile-icon-li">
+                            <a href="#" class="mobile-icon-href">
+                                <svg class="mobile-icon" height="24" width="24">
+                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                    </li>        
+                </ul>      
+            </div>
+        </div>
+    </div>
+
   </div>  
   </header>  
  <!-- #endregion main-header -->
@@ -42,7 +105,7 @@
  <!-- #endregion main-section -->
  <!-- #region section-principles -->
     <section class="principles">
-    <div class="container">
+    <div class="container principles-container">
         <h2 class="principles-title visually-hidden">Principles</h2>
         <ul class="principles-ul">
             <li class="principle-block">
@@ -460,5 +523,6 @@
   </div> 
 <!-- #endregion site-footer -->  
  <script src="./js/modal.js"></script> 
+ <script src="./js/menu.js"></script> 
 </body>
 </html>
